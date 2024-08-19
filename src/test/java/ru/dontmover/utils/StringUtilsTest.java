@@ -1,8 +1,6 @@
-package ru.dontmover.Gradle_Test_Plugin;
+package ru.dontmover.utils;
 
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class StringUtilsTest {
 

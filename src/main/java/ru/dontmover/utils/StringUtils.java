@@ -1,4 +1,4 @@
-package ru.dontmover.Gradle_Test_Plugin;
+package ru.dontmover.utils;
 
 public class StringUtils {
 
