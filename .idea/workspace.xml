@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a25cd5c2-933a-40d0-81f5-655adb5002b3" name="Changes" comment="init+">
+    <list default="true" id="a25cd5c2-933a-40d0-81f5-655adb5002b3" name="Changes" comment="one error has been solved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dontmover/Gradle_Test_Plugin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dontmover/utils/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dontmover/Gradle_Test_Plugin/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dontmover/utils/StringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/dontmover/Gradle_Test_Plugin/StringUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/dontmover/utils/StringUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dontmover/utils/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dontmover/utils/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dontmover/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dontmover/utils/StringUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +77,7 @@
     "Gradle.Gradle-Test-plugin [build].executor": "Run",
     "Gradle.Gradle-Test-plugin [clean].executor": "Run",
     "Gradle.Gradle-Test-plugin [jar].executor": "Run",
+    "Gradle.Gradle-Test-plugin [testClasses].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -99,7 +96,7 @@
       <recent name="ru.dontmover.Gradle_Test_Plugin" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Gradle-Test-plugin [clean]">
+  <component name="RunManager" selected="Gradle.Gradle-Test-plugin [build]">
     <configuration name="Gradle-Test-plugin [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -166,11 +163,34 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Gradle-Test-plugin [testClasses]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="testClasses" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Gradle-Test-plugin [build]" />
+        <item itemvalue="Gradle.Gradle-Test-plugin [testClasses]" />
         <item itemvalue="Gradle.Gradle-Test-plugin [clean]" />
         <item itemvalue="Gradle.Gradle-Test-plugin [jar]" />
-        <item itemvalue="Gradle.Gradle-Test-plugin [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -191,22 +211,29 @@
       <option name="project" value="LOCAL" />
       <updated>1724097735111</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="some changes to verificate">
+      <option name="closed" value="true" />
+      <created>1724098240792</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724098240792</updated>
+    </task>
+    <task id="LOCAL-00003" summary="one error has been solved">
+      <option name="closed" value="true" />
+      <created>1724098295515</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724098295515</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init+" />
-    <option name="LAST_COMMIT_MESSAGE" value="init+" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/dontmover/utils/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="some changes to verificate" />
+    <MESSAGE value="one error has been solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="one error has been solved" />
   </component>
 </project>

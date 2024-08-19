@@ -4,11 +4,7 @@ public class StringUtils {
 
         public static boolean isPositiveNumber(String str) {
             try {
-                if (Integer.parseInt(str) > 0) {
-                    return true;
-                } else {
-                    return false;
-                }
+                return Integer.parseInt(str) > 0;
             }catch (Exception e){
                 e.printStackTrace();
             }
