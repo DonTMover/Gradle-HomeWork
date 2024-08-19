@@ -4,6 +4,7 @@ plugins {
     id 'groovy'
     id 'application'
     id 'maven-publish'
+    id 'java-gradle-plugin'
 }
 
 //rootProject.name ='ru.dontmover.gradle.task'
@@ -18,17 +19,23 @@ java {
     sourceCompatibility = JavaVersion.VERSION_21
     targetCompatibility = JavaVersion.VERSION_21
 }
-//groovy {
-//    toolChain {
-//        languageVersion = JavaVersion.VERSION_21
-//    }
-//}
+gradlePlugin {
+    // Define the plugin
+    plugins {
+        greeting {
+            id = 'ru.dontmover.test_report.Main'
+            implementationClass = 'ru.dontmover.test_report.Main'
+        }
+    }
+}
+
 
 
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testImplementation 'org.jacoco:org.jacoco.ant:0.8.12'
+    implementation 'org.codehaus.groovy:groovy-all:3.0.7'
 
 }
 application {
