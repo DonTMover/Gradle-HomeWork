@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a25cd5c2-933a-40d0-81f5-655adb5002b3" name="Changes" comment="one error has been solved">
+    <list default="true" id="a25cd5c2-933a-40d0-81f5-655adb5002b3" name="Changes" comment="some changes">
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/ru/dontmover/test_report/Main.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dontmover/utils/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dontmover/utils/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dontmover/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dontmover/utils/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dontmover/utils/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dontmover/utils/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/dontmover/utils/StringUtilsTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,16 +34,16 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="utils" type="f1a62948:ProjectNode" />
+                <item name="test_report" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="utils" type="f1a62948:ProjectNode" />
+                <item name="test_report" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="utils" type="f1a62948:ProjectNode" />
+                <item name="test_report" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
@@ -59,6 +63,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Task-1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -82,10 +91,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "Task-1",
+    "git-widget-placeholder": "Task-2",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/DonTMover/IdeaProjects/Gradle-Test-plugin/src/main/java/ru/dontmover/utils",
-    "onboarding.tips.debug.path": "C:/Users/DonTMover/IdeaProjects/Gradle-Test-plugin/src/main/java/ru/dontmover/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/DonTMover/IdeaProjects/Gradle-Test-plugin/src/main/java/ru/dontmover/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -227,13 +239,22 @@
       <option name="project" value="LOCAL" />
       <updated>1724098295515</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1724098429513</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724098429513</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init+" />
     <MESSAGE value="some changes to verificate" />
     <MESSAGE value="one error has been solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="one error has been solved" />
+    <MESSAGE value="some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
   </component>
 </project>

@@ -1,2 +1,3 @@
-rootProject.name = 'utils'
+rootProject.name = 'test_report'
+include('app')
 
