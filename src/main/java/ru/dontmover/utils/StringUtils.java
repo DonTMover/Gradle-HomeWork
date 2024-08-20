@@ -4,11 +4,12 @@ public class StringUtils {
 
     public static boolean isPositiveNumber(String str) {
         try {
-            return Integer.parseInt(str) > 0;
-        } catch (Exception e) {
-            e.printStackTrace();
+            int number = Integer.parseInt(str);
+            return number > 0;
+        } catch (NumberFormatException e) {
+            return false;
         }
-        return false;
     }
+
 
 }
