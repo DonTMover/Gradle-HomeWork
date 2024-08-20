@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a25cd5c2-933a-40d0-81f5-655adb5002b3" name="Changes" comment="hotfix">
+    <list default="true" id="a25cd5c2-933a-40d0-81f5-655adb5002b3" name="Changes" comment="deleted Main.java">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dontmover/utils/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,16 +29,16 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="test_report" type="f1a62948:ProjectNode" />
+                <item name="utils" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="test_report" type="f1a62948:ProjectNode" />
+                <item name="utils" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="test_report" type="f1a62948:ProjectNode" />
+                <item name="utils" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
@@ -120,7 +118,7 @@
       <recent name="ru.dontmover.Gradle_Test_Plugin" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Gradle-Test-plugin [clean]">
+  <component name="RunManager" selected="Gradle.Gradle-Test-plugin [jar]">
     <configuration name="Gradle-Test-plugin [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -224,10 +222,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Gradle-Test-plugin [jar]" />
         <item itemvalue="Gradle.Gradle-Test-plugin [clean]" />
         <item itemvalue="Gradle.Gradle-Test-plugin [build]" />
         <item itemvalue="Gradle.Gradle-Test-plugin [testClasses]" />
-        <item itemvalue="Gradle.Gradle-Test-plugin [jar]" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724099504418</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="deleted Main.java">
+      <option name="closed" value="true" />
+      <created>1724145545723</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724145545723</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,6 +318,7 @@
     <MESSAGE value="one error has been solved" />
     <MESSAGE value="some changes" />
     <MESSAGE value="added groovy code" />
-    <option name="LAST_COMMIT_MESSAGE" value="added groovy code" />
+    <MESSAGE value="deleted Main.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted Main.java" />
   </component>
 </project>
