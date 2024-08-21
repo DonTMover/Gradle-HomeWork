@@ -10,6 +10,17 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/gradle-lesson-api" />
+            <option value="$PROJECT_DIR$/gradle-lesson-core" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/gradle-lesson-core" />
+        <option name="gradleHome" value="" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/gradle-lesson-core" />
           </set>
         </option>
       </GradleProjectSettings>
