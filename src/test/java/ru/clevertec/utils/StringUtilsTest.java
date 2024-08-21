@@ -1,4 +1,4 @@
-package ru.dontmover.utils;
+package ru.clevertec.utils;
 
 import org.junit.jupiter.api.Test;
 

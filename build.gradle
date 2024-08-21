@@ -3,7 +3,7 @@ plugins {
 }
 
 //rootProject.name ='ru.dontmover.gradle.task'
-group = 'ru.dontmover'
+group = 'ru.clevertec'
 version = '1.3.5'
 
 repositories {
@@ -29,7 +29,7 @@ jar {
     manifest {
         attributes 'Implementation-Title': 'utils',
                 'Implementation-Version': '1.3.5',
-                'Main-Class': 'ru.dontmover.utils.StringUtils'
+                'Main-Class': 'ru.clevertec.utils.StringUtils'
     }
     from 'src/main/java'
 }
