@@ -6,7 +6,7 @@ public class StringUtils {
         try {
             int number = Integer.parseInt(str);
             return number > 0;
-        } catch (NumberFormatException e) {
+        } catch (Exception e) {
             return false;
         }
     }
